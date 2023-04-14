@@ -19,5 +19,3 @@ for i in range(n):
     print(coinHeads)
   else:
     print(coinTails)
-    
-#print(f'{n} -> {???}')
