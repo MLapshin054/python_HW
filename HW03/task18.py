@@ -9,3 +9,15 @@
 #     6
 #     -> 5
 
+
+import random
+sizeList = int(input('Введите количество элементов списка: '))
+myList = ([random.randint(1, 10) for i in range(sizeList)])
+print(myList)
+
+findNumber = int(input('Введите число: '))
+nearNumber = myList[0]
+for i in range(sizeList):
+    if abs(myList[i] - findNumber) <= abs(nearNumber - findNumber):
+        nearNumber = myList[i]
+print('Число {} ближе всего к {}.'.format(findNumber, nearNumber))
