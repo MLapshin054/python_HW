@@ -19,4 +19,4 @@ count = 0
 for i in range(sizeList):
     if myList.count(findNumber) > 0:
         count = myList.count(findNumber)
-print('Число {} встречается {} раз.'.format(findNumber, count))
+print('Число {} встречается {} раз/а.'.format(findNumber, count))

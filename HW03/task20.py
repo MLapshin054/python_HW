@@ -30,5 +30,4 @@ for key, value in alphabet.items():
     for i in inputWord:
         if i in value:
             score += key
-print(f'You earned {score} points')
 print('За слово "{}" вы заработали {} балла/ов!'.format(inputWord, score))
