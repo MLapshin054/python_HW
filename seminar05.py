@@ -108,10 +108,35 @@
 # Input: 2 -> 3 4
 # Output: 4 3
 
-def revers_input(n):
-    num = input('Введите число -> ')
-    if n == 1:
-        return num
-    return revers_input(n - 1) + ' ' + num
+# def revers_input(n):
+#     num = input('Введите число -> ')
+#     if n == 1:
+#         return num
+#     return revers_input(n - 1) + ' ' + num
   
-print(revers_input(5))
+# print(revers_input(5))
+
+
+# ДОП МАТЕРИАЛ
+# def f(some_list = []):
+#   some_list.append(2)
+#   print(some_list)
+  
+# f()
+# f()
+# f()
+# f()
+# f()
+
+# Для сборса функции присваивания и обнуления параметра
+def f(some_list = None):
+  if some_list is None:
+    some_list = []
+  some_list.append(2)
+  print(some_list)
+  
+f()
+f()
+f()
+f()
+f()
