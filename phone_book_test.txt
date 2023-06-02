@@ -1,0 +1,6 @@
+Ivanov,Ivan,+123 
+Petrov,Petr,+456 
+Sidorov,Sidr,+789 
+Sid,Slava,+002 
+Soprao,Tony,+777
+АбраКадабра 2323232
